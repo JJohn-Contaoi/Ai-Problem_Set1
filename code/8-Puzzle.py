@@ -49,7 +49,7 @@ while True:
     puzzle_list(puzzle)
     while total != 0:
        
-        if puzzle == ['1', '2', '3', '4', '5', '6', '7', '8', ' ']:
+        if puzzle == ['1', '2', '3', '4', '5', '6', '7', '8', ' ']: # optional
             print(f'Congratulations! You solved the puzzle in {count} moves')
             break
         else:
